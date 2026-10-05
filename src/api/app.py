@@ -19,8 +19,12 @@ APPLICATION_NAME = "DataLens AI API"
 APPLICATION_VERSION = "1.1.0"
 
 ALLOWED_ORIGINS = [
+    # Local development
     "http://localhost:3000",
     "http://127.0.0.1:3000",
+
+    # Production frontend
+    "https://data-lens-ai-mocha.vercel.app",
 ]
 
 
