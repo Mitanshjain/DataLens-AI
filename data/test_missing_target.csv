@@ -1,0 +1,13 @@
+age,experience,education,city,salary
+24,1,Bachelors,Jaipur,30000
+27,3,Masters,Delhi,42000
+31,5,Bachelors,Jaipur,
+35,7,Masters,Mumbai,65000
+38,9,Bachelors,Delhi,72000
+41,11,Masters,Jaipur,
+44,14,Bachelors,Mumbai,95000
+47,17,Masters,Delhi,110000
+50,20,Bachelors,Jaipur,125000
+53,23,Masters,Mumbai,140000
+56,26,Bachelors,Delhi,155000
+59,29,Masters,Jaipur,170000

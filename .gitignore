@@ -1,0 +1,133 @@
+# ==========================================
+# DATALENS AI - GITIGNORE
+# ==========================================
+
+
+# ------------------------------------------
+# Python
+# ------------------------------------------
+
+.venv/
+venv/
+env/
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+
+# ------------------------------------------
+# Environment Variables / Secrets
+# ------------------------------------------
+
+.env
+.env.*
+!.env.example
+
+*.pem
+*.key
+
+
+# ------------------------------------------
+# DataLens Runtime Data
+# ------------------------------------------
+
+# Uploaded datasets
+data/uploads/*
+!data/uploads/.gitkeep
+
+# Local SQLite database
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# Generated reports
+reports/generated/*
+!reports/generated/.gitkeep
+
+# Generated EDA visualizations
+reports/eda/*
+!reports/eda/.gitkeep
+
+
+# ------------------------------------------
+# Logs
+# ------------------------------------------
+
+*.log
+logs/
+log/
+
+
+# ------------------------------------------
+# Next.js / Node
+# ------------------------------------------
+
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/dist/
+
+frontend/.vercel/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# ------------------------------------------
+# Frontend Environment Variables
+# ------------------------------------------
+
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+
+# ------------------------------------------
+# TypeScript
+# ------------------------------------------
+
+*.tsbuildinfo
+
+
+# ------------------------------------------
+# IDE / Editor
+# ------------------------------------------
+
+.vscode/
+.idea/
+
+*.swp
+*.swo
+
+
+# ------------------------------------------
+# Operating System
+# ------------------------------------------
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# ------------------------------------------
+# Temporary Files
+# ------------------------------------------
+
+*.tmp
+*.temp
+*.bak
+*.old
+~*

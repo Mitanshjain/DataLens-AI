@@ -1,0 +1,11 @@
+age,income,city,purchased
+22,25000,Jaipur,No
+24,30000,Delhi,No
+26,35000,Jaipur,No
+28,40000,Mumbai,No
+30,45000,Delhi,No
+32,50000,Jaipur,Yes
+34,55000,Delhi,Yes
+36,60000,Mumbai,Yes
+38,65000,Jaipur,Yes
+40,70000,Delhi,Yes

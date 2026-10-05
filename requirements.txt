@@ -1,0 +1,10 @@
+pandas
+matplotlib
+seaborn
+scikit-learn
+groq
+python-dotenv
+fastapi 
+uvicorn 
+python-multipart
+--dev pytest
